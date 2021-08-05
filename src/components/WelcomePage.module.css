@@ -1,0 +1,50 @@
+.landkit {
+  color: #335eea;
+}
+.heading_2 {
+  color: #38455c;
+}
+.welcome {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 6.4%;
+}
+.imagestyle {
+  width: 60%;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  .imagestyle {
+    width: 50%;
+    height: auto;
+  }
+}
+
+.viewButton {
+  color: white;
+  height: 2.5rem;
+  width: auto;
+  background-color: #335eea;
+  text-decoration: none;
+  border: none;
+  padding: 10px 29px;
+
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.documentation {
+  background-color: #ebedfc;
+  color: #335eea;
+  height: 2.5rem;
+  width: auto;
+  text-decoration: none;
+  border: none;
+  padding: 10px 29px;
+
+  border-radius: 4px;
+  margin-right: 10px;
+
+  cursor: pointer;
+}
